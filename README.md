@@ -4,7 +4,7 @@ A modular and verified implementation of the **AMBA 3 APB (Advanced Peripheral B
 
 ---
 
-## 📌 Features
+## Features
 
 - **Modular Master-Slave Architecture**: Decoupled Master FSM and Slave peripheral units with standard APB interfaces.
 - **Dynamic Address Decoding**: Seamless interconnect routing transaction signals based on memory-mapped addresses.
@@ -14,7 +14,7 @@ A modular and verified implementation of the **AMBA 3 APB (Advanced Peripheral B
 
 ---
 
-## 📐 Architecture & Block Diagram
+## Architecture & Block Diagram
 
 ```mermaid
 graph TD
@@ -43,7 +43,7 @@ graph TD
 
 ---
 
-## 🚦 APB Master State Machine
+## APB Master State Machine
 
 The master FSM controls the protocol transitions using the following states:
 
@@ -53,7 +53,7 @@ The master FSM controls the protocol transitions using the following states:
 
 ---
 
-## 💻 Modules List
+## Modules List
 
 ### 1. APB Master (`apb_master`)
 - Orchestrates setup and access phases.
@@ -81,7 +81,7 @@ The master FSM controls the protocol transitions using the following states:
 
 ---
 
-## 🧪 Simulation & Verification
+## Simulation & Verification
 
 The testbench (`apb_final_testbench.v`) validates the design under the following scenarios:
 
@@ -133,7 +133,7 @@ The testbench (`apb_final_testbench.v`) validates the design under the following
 
 ---
 
-## 📈 Visual Waveform & Results
+## Visual Waveform & Results
 
 ### APB Waveform Overview
 Below is the timing diagram capturing the states and signal transitions of the APB master-slave interaction:
@@ -152,7 +152,7 @@ Standard terminal output validation:
 
 ---
 
-## 🚀 How to Run locally
+## How to Run locally
 
 You can compile and run this using any standard Verilog simulator (e.g. **Icarus Verilog**):
 
